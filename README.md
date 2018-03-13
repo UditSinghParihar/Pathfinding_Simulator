@@ -24,3 +24,6 @@ ii. Diagonal cost, D2 = √2
 iii. Abscissa difference, dx = |goal_x – node_x|
 iv. Ordinate difference, dy = |goal_y – node_y|
 v. Diagonal heuristics, h = D1* |dx - dy| + D2* min(dx, dy)
+
+Video Analysis in Detail :- https://www.youtube.com/watch?v=t3rh8RnQ1qE&t=1295s
+
