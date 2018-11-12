@@ -28,6 +28,6 @@ v. Diagonal heuristics, h = D1* |dx - dy| + D2* min(dx, dy)
 Configure dependecies required, according to your system as mentioned in 'Getting Started':-
 https://www.sfml-dev.org/tutorials/2.5/
 
-![picture alt](Pathfinding-GUI-made-in-SFML/Astar vs dijkstra.jpg)
+![alt text](Pathfinding-GUI-made-in-SFML/Astar vs dijkstra.jpg)  
 Video Analysis in Detail :- https://www.youtube.com/watch?v=t3rh8RnQ1qE&t=1295s
 
