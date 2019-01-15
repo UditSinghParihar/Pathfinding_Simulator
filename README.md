@@ -1,36 +1,49 @@
-# Pathfinding-GUI-made-in-SFML
-A pathfinding GUI made in SFML/C++ for comparing optimality and speed of Dijkstra and A* algorithms 
+## Pathfinding Simulator implementing Dijkstra and A* algorithms ##
 
-Color coding :-
-Open cells - White
-Blocked cells - Black
-Start and End cells - Blue and Red
-Explored cells - Yellow
-Shortest Path of Dijkstra and A* - Green and Magenta
+1. A pathfinding simulator using SFML(Simple and Fast Multimedia Library) for comparing optimality and speed of Dijkstra and A* algorithms. 
 
-Three major components:-
-i. Main loop to render frames at 60 frames/second
-ii. Dijkstra program
-iii. Astar program
+2. **Color coding** :
+	1. *Open cells* - White
+	2. *Blocked cells* - Black
+	3. *Start and End cells* - Blue and Red
+	4. *Explored cells* - Yellow
+	5. *Shortest Path of Dijkstra and A-star* - Green and Magenta
 
-IMPLEMENTATION :-
-i. Map as 2D array of cells
-ii. Binary representation of cells as 0 and 1 for blocked and open cells
-iii. Each cell has information of its parent and its state of exploration
+3. **Major components** :
+	1. Main loop to render frames at 60 frames/second
+	2. Dijkstra program
+	3. Astar program
 
-Heuristics for any node having coordinates (node_x, node_y) is:-
-i. Horizontal and vertical cost, D1 = 1
-ii. Diagonal cost, D2 = √2
-iii. Abscissa difference, dx = |goal_x – node_x|
-iv. Ordinate difference, dy = |goal_y – node_y|
-v. Diagonal heuristics, h = D1* |dx - dy| + D2* min(dx, dy)
+4. **Implementation** :
+	1. Map as 2D array of cells
+	2. Binary representation of cells as 0 and 1 for blocked and open cells
+	3. Each cell has information of its parent and its state of exploration
 
-##Build##
-1. `sudo apt-get install libsfml-dev`
+5. **Heuristics for a node having coordinates `(node_x, node_y)` is** :
+	1. *Horizontal and vertical cost*: `D1 = 1`
+	2. *Diagonal cost*: `D2 = √2`
+	3. *Abscissa difference*: `dx = |goal_x – node_x|`
+	4. *Ordinate difference*: `dy = |goal_y – node_y|`
+	5. *Diagonal heuristics*: `h = D1* |dx - dy| + D2* min(dx, dy)`
 
-Configure dependecies required, according to your system as mentioned in 'Getting Started':-
-https://www.sfml-dev.org/tutorials/2.5/
+## Build ##
+
+1. See how to compile sfml for your operating system [here](https://www.sfml-dev.org/tutorials/2.5/#getting-started) 
+
+2. If you are using Ubuntu or other Linux distros, then for a quick compilation:
+	1. **Install sfml**: `sudo apt-get install libsfml-dev`
+	2. **Complile simulator.cpp** :
+		1. `g++ simulator.cpp -std=c++11 -lsfml-window -lsfml-system -lsfml-graphics`
+	3. Run the exectuable: `./a.out`
+
+
+## Video Analysis ##
 
 ![alt text](astar_vs_dijkstra.jpg)  
-Video Analysis in Detail :- https://www.youtube.com/watch?v=t3rh8RnQ1qE&t=1295s
 
+1. Video Analysis in Detail :- https://www.youtube.com/watch?v=t3rh8RnQ1qE&t=1295s
+
+## TODO ##
+
+1. Place the text in button menu.
+2. Add smooth selection of blocking cells(obstacle cells), by clicking left mouse and hovering over the cells.
