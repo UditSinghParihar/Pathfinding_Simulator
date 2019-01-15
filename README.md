@@ -25,6 +25,9 @@ iii. Abscissa difference, dx = |goal_x – node_x|
 iv. Ordinate difference, dy = |goal_y – node_y|
 v. Diagonal heuristics, h = D1* |dx - dy| + D2* min(dx, dy)
 
+##Build##
+1. `sudo apt-get install libsfml-dev`
+
 Configure dependecies required, according to your system as mentioned in 'Getting Started':-
 https://www.sfml-dev.org/tutorials/2.5/
 
