@@ -37,7 +37,7 @@
 
 ## Build ##
 
-1. See how to compile sfml for your operating system [here](https://www.sfml-dev.org/tutorials/2.5/#getting-started) 
+1. If you are using non-Linux OS, then see how to build SFML and compile programs for your Operating System [here](https://www.sfml-dev.org/tutorials/2.5/#getting-started) 
 
 2. If you are using Ubuntu or other Linux distros, then for a quick compilation:
 	1. **Install sfml**: `sudo apt-get install libsfml-dev`
