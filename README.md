@@ -51,3 +51,5 @@
 
 1. Place the text in button menu.
 2. Add smooth selection of blocking cells(obstacle cells), by clicking left mouse and hovering over the cells.
+3. Add CMake build system for easy compilation.
+4. Refactoring code into headers and OOPS style.
