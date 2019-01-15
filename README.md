@@ -10,7 +10,6 @@
 
 ## Implementation ##
 
-
 1. **Color coding** :
 	1. *Open cells* - White
 	2. *Blocked cells* - Black
@@ -40,12 +39,13 @@
 1. If you are using non-Linux OS, then see how to build SFML and compile programs for your Operating System [here](https://www.sfml-dev.org/tutorials/2.5/#getting-started) 
 
 2. If you are using Ubuntu or other Linux distros, then for a **_quick compilation_**:
-	1. **Install sfml**: `sudo apt-get install libsfml-dev`
-	2. **Complile simulator.cpp** :
+	1. **Clone the repository**:
+		1. `git clone https://github.com/UditSinghParihar/Pathfinding_Simulator`
+		2. `cd Pathfinding_Simulator` 
+	2. **Install sfml**: `sudo apt-get install libsfml-dev`
+	3. **Complile simulator.cpp** :
 		1. `g++ simulator.cpp -std=c++11 -lsfml-window -lsfml-system -lsfml-graphics`
-	3. **Run the exectuable** : `./a.out`
-
-
+	4. **Run the exectuable** : `./a.out`
 
 ## TODO ##
 
