@@ -6,7 +6,7 @@
 
 ![alt text](astar_vs_dijkstra.jpg)  
 
-1. Video Analysis in Detail :- https://www.youtube.com/watch?v=t3rh8RnQ1qE&t=1295s
+1. **Simulation video**: [Here](https://www.youtube.com/watch?v=9qLElqkVqLA&t=66s)
 
 ## Implementation ##
 
